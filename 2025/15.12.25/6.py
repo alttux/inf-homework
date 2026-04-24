@@ -15,7 +15,7 @@ for n in range(1, 1000):
         n4 = n4.replace('2', '-')
         n4 = n4.replace('0', '2')
         n4 = n4.replace('-', '0')
-        n4 = '10' + n4
+        n4 = '10.txt' + n4
     else:
         n4 = '5' + n4[1:] + '13'
     r = int(n4, 6)

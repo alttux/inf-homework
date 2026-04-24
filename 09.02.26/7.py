@@ -7,4 +7,4 @@ with open('7.txt') as f:
             if (s[4]+s[3])/(s[0]+s[1]+s[2]) > 2:
                 count += 1
 print(count)
-# 10
+# 10.txt

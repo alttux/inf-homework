@@ -6,3 +6,5 @@ for A in range(1000, 1, -1):
     ):
         print(A)
         break
+
+# 30

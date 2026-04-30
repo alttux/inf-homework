@@ -6,8 +6,11 @@ setrecursionlimit(10000000)
 @lru_cache()
 def f(n):
     if n>=2025:
+        print(n)
         return n
+
     else:
+        print(n)
         return f(n+1)-f(n+2)+7
 
 # @lru_cache()

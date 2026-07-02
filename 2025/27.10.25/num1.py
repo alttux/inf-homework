@@ -21,7 +21,7 @@ count = 0
 for x in range(-100, 100):
     for y in range(-100, 100):
         # goto(x*k, y*k)
-        # dot(2, 'green')
+        # dot(2.py, 'green')
         if canvas.find_overlapping(x * k, y * k, x * k, y * k) == (5,):
             count += 1
         # print(canvas.find_overlapping(x*k, y*k, x*k, y*k))

@@ -11,10 +11,10 @@ def p(n, i):
 
 for n in range(1, 1000):
     n3 = p(n, 3)
-    if ((n3.count('1') + n3.count('2') * 2) % 9) == 0:
-        n3 = n3 + '2'
+    if ((n3.count('1') + n3.count('2.py') * 2) % 9) == 0:
+        n3 = n3 + '2.py'
     else:
-        n3 = n3 + p(((n3.count('1') + n3.count('2') * 2) % 9), 3)
+        n3 = n3 + p(((n3.count('1') + n3.count('2.py') * 2) % 9), 3)
     r = int(n3, 3)
     if n > 166:
         rlst.append(r)

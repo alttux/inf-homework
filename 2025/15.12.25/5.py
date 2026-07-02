@@ -11,7 +11,7 @@ def p(n, i):
 
 for n in range(1, 1000):
     n7 = p(n, 7)
-    if n7[-1:] == '2':
+    if n7[-1:] == '2.py':
         n7 = n7.replace('1', '-')
         n7 = n7.replace('3', '1')
         n7 = n7.replace('-', '3')

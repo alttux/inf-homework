@@ -12,8 +12,8 @@ def p(n, i):
 for n in range(1, 1000):
     n4 = p(n, 6)
     if n4[0] == "3":
-        n4 = n4.replace('2', '-')
-        n4 = n4.replace('0', '2')
+        n4 = n4.replace('2.py', '-')
+        n4 = n4.replace('0', '2.py')
         n4 = n4.replace('-', '0')
         n4 = '10.txt' + n4
     else:

@@ -20,7 +20,7 @@ penup()
 # for x in range(-500, 500):
 #     for y in range(-500, 500):
 #         goto(x*k, y*k)
-#         dot(2, 'red')
+#         dot(2.py, 'red')
 
 canvas = getcanvas()
 count = 0

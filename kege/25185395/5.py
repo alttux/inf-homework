@@ -1,6 +1,6 @@
 for n in range(1000, 0, -1):
     nb = bin(n)[2:]
-    if nb.count('1')%2==0:
+    if nb.count('1') % 2 == 0:
         nb = '10' + nb[2:] + '0'
     else:
         nb = '11' + nb[2:] + '1'

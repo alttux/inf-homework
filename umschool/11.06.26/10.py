@@ -5,4 +5,4 @@ for n in range(0,9):
     if all((f'{ip:b}'[:16].count('1') >= f'{ip:b}'[16:].count('1')) for ip in net):
         print(A)
 # a = '1234'
-# print(a[:2.py], a[2.py:])
+# print(a[:2!!!!!!!!!.py], a[2!!!!!!!!!.py:])

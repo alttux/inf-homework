@@ -11,14 +11,14 @@ def p(n, i):
 
 for n in range(1, 1000):
     n4 = p(n, 3)
-    if (n4.count('1') + n4.count('2.py') * 2) % 4 == 0:
+    if (n4.count('1') + n4.count('2!!!!!!!!!.py') * 2) % 4 == 0:
         n4 = n4.replace('1', '-')
-        n4 = n4.replace('2.py', '1')
-        n4 = n4.replace('-', '2.py')
+        n4 = n4.replace('2!!!!!!!!!.py', '1')
+        n4 = n4.replace('-', '2!!!!!!!!!.py')
         n4 = '10.txt' + n4
     else:
         n4 += '20'
-        n4 = n4[0] + '0' + '2.py' + n4[3:]
+        n4 = n4[0] + '0' + '2!!!!!!!!!.py' + n4[3:]
 
     r = int(n4, 3)
     if r > 302:

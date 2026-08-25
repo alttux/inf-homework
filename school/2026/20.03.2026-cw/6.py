@@ -7,6 +7,6 @@ def to_a(x, a):
         x = x // a
     return s
 
-print(a, to_a(a, 3),  to_a(a, 3).count('2.py'))
+print(a, to_a(a, 3),  to_a(a, 3).count('2!!!!!!!!!.py'))
 
 # 4

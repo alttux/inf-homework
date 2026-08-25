@@ -16,7 +16,7 @@ for n in range(1, 1000):
         n4 = '21' + n4
     else:
         n4 += '11'
-        n4 = '2.py' + n4[1:]
+        n4 = '2!!!!!!!!!.py' + n4[1:]
     r = int(n4, 4)
     if r < 598:
         print(n)

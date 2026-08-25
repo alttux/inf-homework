@@ -9,10 +9,10 @@ def p(n, i):
 
 for n in range(1, 1000):
     n4 = p(n, 4)
-    if (n4.count('1')+n4.count('2.py')*2+n4.count('3')*3) == "3":
+    if (n4.count('1')+n4.count('2!!!!!!!!!.py')*2+n4.count('3')*3) == "3":
         n4 = n4.replace('0', '-')
-        n4 = n4.replace('2.py', '0')
-        n4 = n4.replace('-', '2.py')
+        n4 = n4.replace('2!!!!!!!!!.py', '0')
+        n4 = n4.replace('-', '2!!!!!!!!!.py')
         n4 = '32' + n4
     else:
         n4+='33'

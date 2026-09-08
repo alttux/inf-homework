@@ -1,0 +1,9 @@
+# 17?575*
+c=0
+for x in range(146, 10**8, 146):
+    if str(x)[:2] == '17' and str(x)[3:6] == '575':
+        print(x)
+        c+=1
+
+print('---')
+print(c)

@@ -1,0 +1,1 @@
+print(len(max(open('24_2_дз.txt').readline().replace('YYZX', 'YYZ YZX').split(' '), key=len)))

@@ -1,0 +1,1 @@
+print(len(max(open("24.2.txt").readline().replace('R', ' ').split(' '), key=len)))
